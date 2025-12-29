@@ -18,13 +18,16 @@ game_jar="Heroes Battle-1.0.0.jar"
 cd heroes_student_task
 ```
 
-2.Запустить отчистку и установку через Make
+2. Запустить отчистку и установку через Make
 ```bash
 make clean
 make all
 ```
 
 3. Скопировать собранный jar в папку с игрой. Собранный jar будет находиться в папке `./build/heroes-student-task.jar`
+
+### Запуск через VS Code
+Также настроена task для VS Code (`Ctrl + Shift + B`) но предварительно должен быть настроен `run.sh` с нужными путями
 
 ## Отчёт по алгоритмам
 
